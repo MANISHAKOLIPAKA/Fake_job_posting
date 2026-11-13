@@ -1,0 +1,77 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.*
+
+# Models and Data
+models/*.pkl
+models/embeddings/
+data/raw/*.csv
+data/processed/*.csv
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+api_log.txt
+logs/*.log
+logs/*.json
+
+# Local account data and secrets
+users.json
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+*.bak
+
+# IDE cache
+*.vscode/
